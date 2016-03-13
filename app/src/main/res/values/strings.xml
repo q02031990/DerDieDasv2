@@ -1,0 +1,14 @@
+<resources>
+    <string name="facebook_app_id">1190321617664037</string>
+    <string name="app_name">Der Die Das Suchen</string>
+    <string name="action_settings">Settings</string>
+    <string name="backToMain">Back To Main</string>
+    <string name="Edit">Edit</string>
+    <string name="urlDatabase">http://tiengduc123.com/app/Data/Derdiedas.v4.db</string>
+    <string name="locationDatabase">/data/data/tiengduc123.com.derdiedassuchen/databases/Derdiedas.db</string>
+    <string-array name="tabs">
+        <item>Normen</item>
+        <item>Verben</item>
+        <item>Game</item>
+    </string-array>
+</resources>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="dict"
+        android:id="@+id/txtDict"
+        android:textColor="#7a7a7a"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="id"
+        android:id="@+id/txtID"
+        android:visibility="invisible" />
+-->
+   <!-- <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/txtWord"
+        android:text="The Word"
+        android:textColor="#00b643"
+        android:textIsSelectable="true"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_marginTop="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="center" />-->
+
+    <!-- <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Edit"
+        android:id="@+id/btnEdit"
+        android:layout_below="@+id/txtDefinition"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:visibility="invisible" />-->
+
+    <TextView
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/txtNote"
+        android:textColor="#6b8bfd"
+        android:text="Tìm kiếm trên internet:"
+        android:textSize="15dp"
+        android:textStyle="italic" />
+
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:weightSum="1">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/imgwiki"
+        android:src="@drawable/wiki"
+        android:layout_weight="0.05" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/imgGoogleTranslate"
+        android:src="@drawable/ggt"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_weight="0.06" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:id="@+id/imgeGoogleImage"
+        android:src="@drawable/gglei"
+        android:layout_marginRight="30dp"
+        android:layout_weight="0.06" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/imageDictcc"
+        android:src="@drawable/dict"
+        android:layout_marginRight="30dp"
+        android:layout_weight="0.06" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/imgLoangoai"
+        android:src="@drawable/loangoai"
+        android:layout_weight="0.06" />
+
+</LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/txtDefinition"
+        android:textColor="#ff0000"
+        android:text="definition"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Chia Nomen"
+        android:id="@+id/txtChiaNomen"
+        android:layout_marginTop="10dp" />
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:weightSum="1">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Edit"
+            android:id="@+id/txtEdit"
+            android:clickable="true"
+            android:textColor="#002aff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Delete"
+        android:id="@+id/txtDelete"
+        android:clickable="true"
+        android:textColor="#ff0101"
+        android:layout_marginLeft="30dp"
+
+        android:textStyle="bold" />
+
+
+</LinearLayout>
+    <!--
+    <TextView
+        android:id="@+id/lblListItem"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17dip"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft" />-->
+
+</LinearLayout>
